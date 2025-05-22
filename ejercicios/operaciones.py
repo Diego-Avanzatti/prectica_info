@@ -1,50 +1,50 @@
 
-def suma(a,b):
+def sumar(a,b):
     return a + b
 
-def suma_args(*args):
+def sumar_args(*args):
     suma = args[0]
     for i in args[1:]:
         suma += i
     return suma
 
-def resta(a,b):
+def restar(a,b):
     return a - b
 
-def resta(*args):
+def restar(*args):
     resta = args[0]
     for i in args[1:]:
         resta -= i
     return resta
 
-def multiplicacion(a,b):
+def multiplicar(a,b):
     return a * b
 
-def multiplicacion_args(*args):
+def multiplicar_args(*args):
     multiplicar = args[0]
     for i in args[1:]:
         multiplicar *= i
     return multiplicar
 
-def division(a,b):
+def dividir(a,b):
     return a / b
 
-def division_args(*args):
+def dividir_args(*args):
     dividir = args[0]
     for i in args[1:]:
         dividir /= i
     return dividir
 
-def potencia(numero,potencia = 2):
-    resultado = numero ** potencia
+def potenciar(a,b):
+    resultado = a ** b
     return resultado
 
-def potencia_args(*args):
-    potencia = args[0]
+def potenciar_args(*args):
+    resultado = args[0]
     for i in args[1:]:
-        potencia **= i
-    return potencia
+        resultado **= i
+    return resultado
 
-def raiz_cuadrada(numero, decimal = 2):
-    resultado = numero ** 0.5
-    return round(resultado,decimal)
+def raiz_cuadrada(a):
+    resultado = a ** 0.5
+    return round(resultado)
