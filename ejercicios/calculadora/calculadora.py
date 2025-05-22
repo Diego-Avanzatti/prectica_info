@@ -1,4 +1,4 @@
-from operaciones import sumar, restar, multiplicar, dividir, potenciar, raiz_cuadrada
+from ejercicios.calculadora.operaciones import sumar, restar, multiplicar, dividir, potenciar, raiz_cuadrada
 
 print("\nCALCULADORA\n")
 
